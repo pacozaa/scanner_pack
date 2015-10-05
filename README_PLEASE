@@ -1,0 +1,12 @@
+sign-pack folder
+1.This Scanner_Netbeans.jar was signed by my keystore which is thisiskeystore file.
+ if you want to use this as your keystore please double click on file sign.cmd then use thisispassword as password(Don't forget to replace with the new .jar file before run the command!)
+2.I've change the java file cause you are not using init and doPrivileged method for security reason but I still got the error Null point exception(The same method fix SmartCard problem)
+https://docs.oracle.com/javase/7/docs/technotes/guides/security/doprivileged.html
+3.If I didn't miss somethig plug in the scanner it would works by 4.
+4.Test this issue by run SignedApplet.html file see what happen!
+
+
+unsign-jar folder
+1.This is Scanner_Netbeans.jar wasn't signed(in case you want to sign it by your keystore)
+2.The other file is changed file.

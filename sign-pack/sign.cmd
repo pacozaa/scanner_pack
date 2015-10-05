@@ -1,0 +1,1 @@
+jarsigner -keystore thisiskeystore Scanner_Netbeans.jar thisisalias
